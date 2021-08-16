@@ -1,0 +1,1069 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    display: flex;
+    width: 100%;
+    height: 8vh;
+}
+
+.menu {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 238px;
+    margin-top: 15px;
+}
+
+header h1{
+    margin-left: 237px;
+    margin-top: 7px;
+}
+
+.menu img{
+    height: 21px;
+    margin-left: 30px;
+}
+
+.menu .efeito:hover {
+    opacity: 0.1;
+    cursor: pointer;
+}
+
+
+.menu h2 {
+    position: relative;
+    bottom: 6px;
+    margin-left: 39px;
+}
+
+
+
+
+.menu p {
+
+    margin-left: 5px;
+}
+
+
+
+.inicio {
+    width: 100%;
+    height: 100vh;
+    background: url(Images_export_figma/Imagem12.png);
+}
+
+.textoInicio h1{
+    width: 60%;
+    font-size: 64px;
+    padding-left: 101px;
+    padding-top: 90px;
+    line-height: 96px;
+    color: white;
+}
+
+span {
+    color: rgba(0, 57, 204, 1);
+    font-weight: bold;
+}
+
+.inicio p {
+    margin-left: 101px;
+    color: white;
+    font-size: 18px;
+    width: 50%;
+}
+
+.inicio button {
+    width: 200px;
+    height: 50px;
+    position: relative;
+    left: 101px;
+    border-radius: 18px;
+    border: 0px;
+    background-color: rgba(0, 27, 97, 1);
+    color: white;
+    font-size: 20px;
+    letter-spacing: 0.1em;
+    text-align: center;
+    margin-top: 3%;
+}
+
+/*.inicio img{
+    height: 20px;
+    align-items: center;
+    position: relative;
+    top: 5%;
+}*/
+
+
+/*-----------------*/
+
+.compra {
+    height: 150vh;
+}
+
+.textocompra h1 {
+    text-align: center;
+    padding-top: 100px;
+    font-size: 50px;
+    color:rgba(0, 27, 97, 1);
+}
+
+.item {
+    margin-top: 10%;
+    height: 360px;
+    width: 514px;
+    box-shadow: 4px 4px 16px 0px rgba(0, 0, 0, 0.253);
+    border-radius: 16px;
+}
+
+
+.item .textodoitem {
+    text-align: center;
+    padding-top: 30px;
+    font-size: 12px;
+    color: rgba(23, 24, 27, 1);
+}
+
+.item-esquerda {
+    margin-top: 30px;
+    margin-left: 20px;
+    width: 100%;
+}
+
+.item-esquerda p {
+    color:rgba(5, 4, 4, 0.438);
+    display: flex;
+    position: relative;
+    left: 305px;
+    font-size: 16px;
+
+}
+
+li {
+    list-style: none;
+    font-size: 16px;
+}
+
+.componentes {
+    display: flex;
+}
+
+.item-esquerda button {
+    width: 150px;
+    height: 40px;
+    position: relative;
+    border-radius: 16px;
+    border: 0px;
+    background-color: rgba(0, 27, 97, 1);
+    color: white;
+    font-size: 18px;
+    letter-spacing: 0.1em;
+    text-align: center;
+    margin-top: 7%;
+}
+
+.item-esquerda button {
+    cursor: pointer;
+}
+
+.item-esquerda img {
+    height: 20px;
+    align-items: center;
+    position: relative;
+    top: 5%;
+    right: 2%;
+}
+
+.item-direita {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    right: 20px;
+}
+
+.item-direita img {
+    width: 100%;
+    height: 60%;
+    margin-right: 10px;
+    border-radius: 16px;
+}
+
+
+.items-flex {
+    display: flex;
+    justify-content: space-around;
+}
+
+.linha {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.linha img {
+    height: 2px;
+    border: 3px;
+}
+
+.parte2 {
+    height: 130vh;
+    display: flex;
+}
+
+.parte2 .parte-esquerda {
+    margin-top: 250px;
+    margin-left: 101px;
+    width: 60%;
+}
+
+.parte2 .parte-esquerda h1 {
+    font-size: 64px;
+    width: 60%;
+    color: rgba(23, 24, 27, 1)
+}
+
+.parte2 .parte-esquerda p {
+    font-size: 20px;
+    width: 60%;
+}
+
+#imagem {
+    height: 350px;
+    position: relative;
+    top: 310px;
+    right: 30%;
+}
+
+#imagem1 {
+    position: absolute;
+    margin-top: 250px;
+    margin-left: 50px;
+}
+
+.parte2 .parte-esquerda button {
+    width: 170px;
+    height: 50px;
+    margin-top: 30px;
+    border-radius: 16px;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    background-color: rgba(0, 27, 97, 1);
+    letter-spacing: 0.1em;
+    color: white;
+    border: 0px;
+}
+
+
+footer {
+    height: 40vh;
+    background-color: rgba(23, 24, 27, 1);
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+
+footer .primeira-footer {
+    width: 100%;
+    display: flex;
+}
+
+.primeira-footer h1 {
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.primeira-footer p {
+    margin-top: 44px;
+    margin-left: 22px;
+}
+
+
+.segunda-footer {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-right: 22px;
+}
+
+.terceira-footer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    color: white;
+    margin-top: 30px;
+}
+
+.terceira-footer .flex-footer p {
+    position: relative;
+    text-align: center;
+}
+
+.footer-social-image {
+    display: flex;
+    justify-content: center;
+
+}
+
+.terceira-footer .flex-footer img {
+    height: 30px;
+    margin-left: 30px;
+}
+
+.flex-footer {
+    display: block;
+}
+
+
+.creditos {
+    background-color: rgb(26, 27, 29);
+}
+
+.creditos a {
+    text-decoration: none;
+    color: white;
+}
+
+.spancreditos {
+    color:rgba(0, 27, 97, 1);
+}
+
+
+/*Responsivo*/
+
+@media screen and (min-widht: 966px) and (max-width: 966px) {
+
+    .inicio {
+        padding-top: 5%;
+    }
+
+    .inicio .textoInicio h1{
+        padding-top: 0;
+        font-size: 60px;
+        position: relative;
+        top: 30px;
+    }
+
+    .inicio p {
+        position: relative;
+        top: 30px;
+    }
+
+    .inicio button {
+        top: 20px;
+        height: 40px;
+        width: 160px;
+        font-size: 16px;
+    }
+    
+}
+
+
+/*@media screen and (min-width: 768px) and (max-width: 917px) {
+    
+    header h1{
+        margin: 0;
+        margin-left: 237px;
+    }
+
+    header {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .inicio  {
+        width: 100%;
+    }
+    
+
+
+    .textoInicio h1 {
+        width: 100%;
+        font-size: 52px;
+        line-height: 1.3em;
+        padding-left: 30px;
+    }
+
+    .inicio p {
+        font-size: 18px;
+        padding-left: 30px;
+        margin: 0;
+    }
+
+    .inicio button {
+        top: 10px;
+        height: 40px;
+        width: 120px;
+        left: 0;
+        margin-left: 30px;
+        font-size: 12px;
+    }
+}*/
+
+
+@media screen and (min-width: 480px) and (max-width: 720px) {
+    header h1 {
+        margin-left: 20%;
+    }
+
+    header p {
+        margin-right: 1%;
+    }
+
+    .inicio .textoInicio h1 {
+        font-size: 280%;
+        width: 70%;
+        line-height: 60px;
+        padding: 0;
+        padding-left: 20px;
+        padding-top: 150px;
+    }
+
+    .inicio p {
+        padding: 20px;
+        margin-left: 0;  
+        position: relative;
+        width: 70%;
+    }
+
+    .inicio button {
+        left: 0;
+        margin-left: 20px;
+        bottom: 20px;
+    }
+
+
+    /*Venda*/
+
+    .items-flex {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .item {
+        width: 90%;
+    }
+
+    .textodoitem h1{
+        font-size: 20px;
+    }
+
+    .item-esquerda li {
+        font-size: 14px;
+    }
+
+    .item-direita {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .item-direita img {
+        width: 90%;
+        margin: 0;
+        padding: 0;
+    }
+
+    .item-esquerda button {
+        position: relative;
+        top: 20%;
+    }
+
+    .item-esquerda p {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        top: 30px;
+        left: 205px;
+    }
+
+    /*Linha*/
+
+    .linha {
+        padding-top: 40%;
+    }
+
+    /*Montar*/
+
+
+    .parte2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column-reverse;
+        height: 130vh;
+        width: 100%;
+    }
+
+
+
+    #imagem1 {
+        height: 200px;
+        margin-left: 18%;
+        margin-top: 270px;
+    }
+
+    #imagem {
+        height: 200px;
+        margin-left: 28%;
+    }
+
+    .parte2 .parte-esquerda {
+        padding-top: 10%;
+        width: 100%;
+        margin: 0;
+    }
+    
+    .parte2 .parte-esquerda h1 {
+        width: 100%;
+        padding: 50% 16px 0px 16px;
+        text-align: center;
+    }
+
+    .parte2 .parte-esquerda p {
+        text-align: center;
+        width: 100%;
+        padding: 20px;
+    }
+
+    .parte2 .parte-esquerda {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .parte2 .parte-esquerda button {
+        width: 170px;
+        border-radius: 18px;
+        height: 60px;
+        border: 0px;
+        font-family: poppins, sans-serif;
+        letter-spacing: 0.1em;
+        font-size: 18px;
+        font-weight: 500;
+        background-color: rgba(0, 27, 97, 1);
+        color: white;
+    }
+
+    footer {
+        margin-top: 50%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        height: 60vh;
+    }
+
+    .primeira-footer {
+        position: relative;
+        bottom: 50px;
+    }
+
+    footer .segunda-footer {
+        margin-bottom: 20px;
+        text-align: center;
+        position: relative;
+        top: 50px;
+        right: 15px;
+        bottom: 20px;
+        
+    }
+
+    .terceira-footer {
+        margin-top: 0;
+        bottom: 30px;
+        position: relative;
+        display: flex;
+        justify-content: flex;
+        align-items: flex-end;
+    }
+}
+
+
+@media screen and (min-width: 720px) and (max-width: 900px) {
+    
+    header h1 {
+        margin-left: 20%;
+    }
+
+    header p {
+        margin-right: 1%;
+    }
+
+    .inicio .textoInicio h1 {
+        font-size: 280%;
+        width: 70%;
+        line-height: 60px;
+        padding: 0;
+        padding-left: 20px;
+        padding-top: 150px;
+    }
+
+    .inicio p {
+        padding: 20px;
+        margin-left: 0;  
+        position: relative;
+        width: 70%;
+    }
+
+    .inicio button {
+        left: 0;
+        margin-left: 20px;
+        bottom: 20px;
+    }
+    
+    /*Item*/
+    .items-flex {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .item {
+        width: 90%;
+    }
+
+    .textodoitem h1{
+        font-size: 20px;
+    }
+
+    .item-esquerda li {
+        font-size: 14px;
+    }
+
+    .item-direita {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .item-direita img {
+        width: 90%;
+        margin: 0;
+        padding: 0;
+    }
+
+    .item-esquerda button {
+        position: relative;
+        top: 10%;
+    }
+
+    .item-esquerda p {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        top: 10%;
+        left: 205px;
+    }
+
+        /*Linha*/
+
+        .linha {
+            padding-top: 40%;
+        }
+    
+        /*Montar*/
+    
+    
+        .parte2 {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column-reverse;
+            height: 130vh;
+            width: 100%;
+        }
+    
+    
+    
+        #imagem1 {
+            height: 200px;
+            margin-left: 290px;
+            margin-top: 32%;
+        }
+    
+        #imagem {
+            height: 250px;
+            margin-left: 331px;
+        }
+    
+        .parte2 .parte-esquerda {
+            padding-top: 10%;
+            width: 100%;
+            margin: 0;
+        }
+        
+        .parte2 .parte-esquerda h1 {
+            width: 100%;
+            padding: 30% 16px 0px 16px;
+            text-align: center;
+        }
+    
+        .parte2 .parte-esquerda p {
+            text-align: center;
+            width: 100%;
+            padding: 20px;
+        }
+    
+        .parte2 .parte-esquerda {
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+        }
+    
+        .parte2 .parte-esquerda button {
+            width: 170px;
+            border-radius: 18px;
+            height: 60px;
+            border: 0px;
+            font-family: poppins, sans-serif;
+            letter-spacing: 0.1em;
+            font-size: 18px;
+            font-weight: 500;
+            background-color: rgba(0, 27, 97, 1);
+            color: white;
+        }
+    
+        footer {
+            margin-top: 50%;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            height: 60vh;
+        }
+    
+        .primeira-footer {
+            position: relative;
+            bottom: 50px;
+        }
+    
+        footer .segunda-footer {
+            margin-bottom: 20px;
+            text-align: center;
+            position: relative;
+            top: 50px;
+            right: 15px;
+            bottom: 20px;
+            
+        }
+    
+        .terceira-footer {
+            margin-top: 0;
+            bottom: 30px;
+            position: relative;
+            display: flex;
+            justify-content: flex;
+            align-items: flex-end;
+        }
+}
+
+@media screen and (min-width: 900px) and (max-width: 1024px) {
+    header h1 {
+        margin-left: 20%;
+    }
+
+    header p {
+        margin-right: 1%;
+    }
+
+    .inicio .textoInicio h1 {
+        font-size: 340%;
+        width: 70%;
+        line-height: 60px;
+        padding: 0;
+        padding-left: 20px;
+        padding-top: 150px;
+    }
+
+    .inicio p {
+        padding: 20px;
+        margin-left: 0;  
+        position: relative;
+        width: 70%;
+    }
+
+    .inicio button {
+        left: 0;
+        margin-left: 20px;
+        bottom: 20px;
+    }
+    
+    /*Item*/
+    .items-flex {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .item {
+        width: 90%;
+    }
+
+    .textodoitem h1{
+        font-size: 20px;
+    }
+
+    .item-esquerda li {
+        font-size: 14px;
+    }
+
+    .item-direita {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .item-direita img {
+        width: 90%;
+        margin: 0;
+        padding: 0;
+    }
+
+    .item-esquerda button {
+        position: relative;
+        top: 10%;
+    }
+
+    .item-esquerda p {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        top: 10%;
+        left: 205px;
+    }
+
+        /*Linha*/
+
+        .linha {
+            padding-top: 40%;
+        }
+    
+        /*Montar*/
+    
+    
+        .parte2 {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column-reverse;
+            height: 130vh;
+            width: 100%;
+        }
+    
+    
+    
+        #imagem1 {
+            height: 200px;
+            margin-left: 290px;
+            margin-top: 29%;
+        }
+    
+        #imagem {
+            height: 250px;
+            margin-left: 331px;
+        }
+    
+        .parte2 .parte-esquerda {
+            padding-top: 10%;
+            width: 100%;
+            margin: 0;
+        }
+        
+        .parte2 .parte-esquerda h1 {
+            width: 100%;
+            padding: 30% 16px 0px 16px;
+            text-align: center;
+        }
+    
+        .parte2 .parte-esquerda p {
+            text-align: center;
+            width: 100%;
+            padding: 0px 130px 0px 130px;
+        }
+    
+        .parte2 .parte-esquerda {
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+        }
+    
+        .parte2 .parte-esquerda button {
+            width: 170px;
+            border-radius: 18px;
+            height: 60px;
+            border: 0px;
+            font-family: poppins, sans-serif;
+            letter-spacing: 0.1em;
+            font-size: 18px;
+            font-weight: 500;
+            background-color: rgba(0, 27, 97, 1);
+            color: white;
+        }
+    
+        footer {
+            margin-top: 50%;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            height: 60vh;
+        }
+    
+        .primeira-footer {
+            position: relative;
+            bottom: 50px;
+        }
+    
+        footer .segunda-footer {
+            margin-bottom: 20px;
+            text-align: center;
+            position: relative;
+            top: 50px;
+            right: 15px;
+            bottom: 20px;
+            
+        }
+    
+        .terceira-footer {
+            margin-top: 0;
+            bottom: 30px;
+            position: relative;
+            display: flex;
+            justify-content: flex;
+            align-items: flex-end;
+        } 
+}
+
+
+@media screen and (min-width: 1024px) and (max-width: 1200px) {
+    .parte2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column-reverse;
+        height: 130vh;
+        width: 100%;
+    }
+
+
+    .item {
+        width: 50%;
+    }
+
+    .items-flex {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+    .linha {
+        padding-top: 40%;
+    }
+
+
+    #imagem1 {
+        height: 200px;
+        margin-left: 370px;
+        margin-top: 25%;
+    }
+
+    #imagem {
+        height: 320px;
+        margin-left: 331px;
+    }
+
+    .parte2 .parte-esquerda {
+        padding-top: 10%;
+        width: 100%;
+        margin: 0;
+    }
+    
+    .parte2 .parte-esquerda h1 {
+        width: 100%;
+        padding: 30% 16px 0px 16px;
+        text-align: center;
+    }
+
+    .parte2 .parte-esquerda p {
+        text-align: center;
+        width: 100%;
+        padding: 0px 130px 0px 130px;
+    }
+
+    .parte2 .parte-esquerda {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .parte2 .parte-esquerda button {
+        width: 170px;
+        border-radius: 18px;
+        height: 60px;
+        border: 0px;
+        font-family: poppins, sans-serif;
+        letter-spacing: 0.1em;
+        font-size: 18px;
+        font-weight: 500;
+        background-color: rgba(0, 27, 97, 1);
+        color: white;
+    }
+
+    footer {
+        margin-top: 50%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        height: 60vh;
+    }
+
+    .primeira-footer {
+        position: relative;
+        bottom: 50px;
+    }
+
+    footer .segunda-footer {
+        margin-bottom: 20px;
+        text-align: center;
+        position: relative;
+        top: 50px;
+        right: 15px;
+        bottom: 20px;
+        
+    }
+
+    .terceira-footer {
+        margin-top: 0;
+        bottom: 30px;
+        position: relative;
+        display: flex;
+        justify-content: flex;
+        align-items: flex-end;
+    } 
+
+}
